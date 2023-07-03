@@ -168,7 +168,7 @@ header{
 
 .big_section{
     padding: 1rem 0 3rem 0;
-    background-color: pink;
+    background-color: purple;
 }
 
 .big_container{
@@ -188,6 +188,20 @@ header{
 footer{
     background-color: rgb(61, 61, 173);
     padding: 1rem 0 3rem 0;
+}
+
+.row_end{
+    display: flex;
+    justify-content: space-between;
+    background-color: dimgrey;
+    margin-top: 1rem;
+}    
+
+.end_one, .end_two{
+    height: 50px;
+    width:calc(100% / 12);
+    background-color: black;
+    margin: 1rem 0 1rem 0;
 }
 
 /* #endregion Footer */
