@@ -12,6 +12,21 @@
     margin: auto;
 }
 
+.col_8, .col_4{
+    height: 250px;
+}
+
+
+.col_8{
+    width: calc(90% / 12 * 8);
+    background-color: aqua;
+}
+
+.col_4{
+    width: calc(90% / 12 * 4);
+    background-color: blueviolet;
+}
+
 
 /* #region Header */
 header{
@@ -64,4 +79,29 @@ header{
 /* #endregion First Section */
 
 
+
+/* #region Second Section */
+
+.section_two{
+    background-color: palevioletred;
+}
+
+.main_two{
+    padding: 1rem;
+
+}
+
+.row_main_two{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+    background-color: brown;
+}
+
+
+
+
+
+/* #endregion Second Section */
 
