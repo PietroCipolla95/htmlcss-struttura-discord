@@ -72,7 +72,7 @@ header{
 .big_article{
     width: 100%;
     height: 200px;
-    margin-top: 2rem 0;
+    margin: 2rem 0;
     background-color: grey;
 }
 
@@ -104,4 +104,58 @@ header{
 
 
 /* #endregion Second Section */
+
+
+/* #region Third Section */
+
+
+.section_three{
+    background-color: purple;
+}
+
+.main_three{
+    padding: 1rem;
+
+}
+
+.row_main_three{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+    background-color: brown;
+}
+
+
+
+/* #endregion Third Section */
+
+
+/* #region Fourth Section */
+
+
+.section_four{
+    background-color: palevioletred;
+}
+
+.main_four{
+    padding: 1rem;
+
+}
+
+.row_main_four{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+    background-color: brown;
+}
+
+
+
+
+
+/* #endregion Fourth Section */
+
+
 
