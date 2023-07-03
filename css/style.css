@@ -3,3 +3,36 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+header{
+    background-color: rgb(61, 61, 173);
+}
+
+.container{
+    max-width: 1170px;
+    width: 80%;
+    margin: auto;
+}
+
+.row_header{
+    display: flex;
+    justify-content: space-between;
+    height: 100px;
+}
+
+.head_1, .head_2, .head_3{
+    height: 60px;
+    margin: 1rem 0;
+    border: 1px solid red;
+}
+
+.head_1, .head_3{
+    background-color: grey;
+    width: 25%;
+}
+
+.head_2{
+    background-color: black;
+    width: 50%;
+    
+}
