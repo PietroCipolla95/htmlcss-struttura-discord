@@ -158,4 +158,21 @@ header{
 /* #endregion Fourth Section */
 
 
+/* #region Big Section */
 
+.big_section{
+    padding: 1rem 0 3rem 0;
+    background-color: pink;
+}
+
+.big_container{
+    height: 300px;
+    background-color: grey;
+}
+
+
+
+
+
+
+/* #endregion Big Section */
