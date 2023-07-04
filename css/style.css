@@ -12,6 +12,15 @@
     margin: auto;
 }
 
+.row{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+    background-color: brown;
+}
+
+
 .col_8, .col_4, .col_15{
     height: 250px;
 }
@@ -160,16 +169,6 @@ header{
 .main_four{
     padding: 1rem;
 }
-
-.row_main_four{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 300px;
-    background-color: brown;
-}
-
-
 
 
 
